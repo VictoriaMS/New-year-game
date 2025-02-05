@@ -12,7 +12,6 @@ document.querySelector('.start-game-button').addEventListener('click', function 
   game.start();
 });
 
-
 document.querySelector('.retry-game-button').addEventListener('click', function () {
   document.querySelector('.game-over').classList.add('inactive');
   document.querySelector('.game').classList.remove('inactive');

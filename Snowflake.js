@@ -11,7 +11,7 @@ export class Snowflake {
     this.y += 5;
     if (this.y > canvas.height - 50)
     {
-        this.dead = true;
+        this.dead = true; 
     }
   }
 

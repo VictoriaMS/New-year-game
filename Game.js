@@ -117,7 +117,7 @@ export class Game {
         this.snowflakeFell();
       }
 
-      this.objects[i].draw(this.ctx);
+      this.objects[i].draw(this.ctx); 
     }
   }
 

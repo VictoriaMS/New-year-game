@@ -41,7 +41,7 @@ export class NewYearTree {
       ctx.stroke();
 
       height += this.branch_length;
-      secondHeight += this.branch_length;
+      secondHeight += this.branch_length; 
     }
   }
 }
